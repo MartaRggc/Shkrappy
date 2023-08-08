@@ -68,6 +68,12 @@ Para subir los datos a Mongo, importé los csv y los transformé en diccionarios
 
 ## 5.Data_analysis
 
-Por último, algunos gráficos preliminares 
+Por último, he realizado un análisis preliminar de los datos y sacado algunas conclusiones. 
+
+![activity](images/one.png)
+![activity](images/two.png)
+![activity](images/three.png)
+
+
 
 
