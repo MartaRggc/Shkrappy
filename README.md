@@ -56,8 +56,9 @@ Una vez recogidos los datos llegó el turno de procesarlos para preparar la subi
 
 Por último, creé una función de agrupación por franja horaria para contar y normalizar el número de posts por hora a lo largo de los días, y poder medir la actividad en las tablas de reddit. Utilizando esta función, la apliqué sobre las tablas de los subreddits recortadas (quería la misma franja temporal en todas para poder comparar) y la uní a los datos de Google Trends, también recortados a la misma franja temporal. El resultado fue un dataframe que llamé 'activity' y que también subí más tarde a la base de datos.
 
-![activity](images/activity.png)
-
+<p align="center">
+  <img src="images/activity.png" alt="drawing" width="900">
+</p>
 
 ## 4.Mongo_loading
 
@@ -70,18 +71,23 @@ Para subir los datos a Mongo, importé los csv y los transformé en diccionarios
 
 Por último, he realizado un análisis preliminar de los datos y sacado algunas conclusiones. Comparando los reddits nacionales (r/usa, r/canada y r/uk) con sus homólogos en Google Trends, vemos que las curvas de actividad cuadran bastante bien como cabría esperar si los usuarios corresponden a dichas nacionalidades. 
 
-Debajo se muestra el caso estadounidense, en que ambas curvas muestran un partón de actividad similar salvando que la actividad durante el sábado 05 de agosto se dispara en la curva de reddit (en azul) y disminuye en la búsqueda de noticias (naranja).
+Debajo muestro el caso estadounidense, en que ambas curvas muestran un partón de actividad similar salvando que la actividad durante el sábado 05 de agosto se dispara en la curva azul de reddit y disminuye en la búsqueda de noticias, en naranja.
 
-![activity](images/one.png)
+<p align="center">
+  <img src="images/one.png" alt="drawing" width="400">
+</p>
 
 Por otro lado, las curvas de los subreddits temáticos no encajan con los patrones de actividad de ninguno de los países, lo que encaja con una población de usuarios de nacionalidades más diversas. El subreddit de relaciones, que es el más activo, también aumenta su actividad el sábado, lo que cuadra con un foro de tipo consulta/expresión personal.
 
-![activity](images/two.png)
+<p align="center">
+  <img src="images/two.png" alt="drawing" width="600">
+</p>
 
-Por último, he estudiado las horas clave de actividad en los foros nacionales y generales, resumiendo la información de los picos y valles en distintas tablas. Abajo muestro la correspondiente a r/usa, r/canada y r/uk en hora local, lo que podría ser útil de cara a futuros análisis.
+Finalmente, he estudiado las horas clave de actividad en los foros nacionales y generales, resumiendo la información de los picos y valles en distintas tablas. Abajo muestro la correspondiente a r/usa, r/canada y r/uk en hora local, lo que podría ser útil de cara a futuros análisis.
 
-![activity](images/three.png)
-
+<p align="center">
+  <img src="images/three.png" alt="drawing" width="500">
+</p>
 
 # Futuros pasos
 
