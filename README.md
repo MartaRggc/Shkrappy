@@ -68,12 +68,27 @@ Para subir los datos a Mongo, importé los csv y los transformé en diccionarios
 
 ## 5.Data_analysis
 
-Por último, he realizado un análisis preliminar de los datos y sacado algunas conclusiones. 
+Por último, he realizado un análisis preliminar de los datos y sacado algunas conclusiones. Comparando los reddits nacionales (r/usa, r/canada y r/uk) con sus homólogos en Google Trends, vemos que las curvas de actividad cuadran bastante bien como cabría esperar si los usuarios corresponden a dichas nacionalidades. 
+
+Debajo se muestra el caso estadounidense, en que ambas curvas muestran un partón de actividad similar salvando que la actividad durante el sábado 05 de agosto se dispara en la curva de reddit (en azul) y disminuye en la búsqueda de noticias (naranja).
 
 ![activity](images/one.png)
+
+Por otro lado, las curvas de los subreddits temáticos no encajan con los patrones de actividad de ninguno de los países, lo que encaja con una población de usuarios de nacionalidades más diversas. El subreddit de relaciones, que es el más activo, también aumenta su actividad el sábado, lo que cuadra con un foro de tipo consulta/expresión personal.
+
 ![activity](images/two.png)
+
+Por último, he estudiado las horas clave de actividad en los foros nacionales y generales, resumiendo la información de los picos y valles en distintas tablas. Abajo muestro la correspondiente a r/usa, r/canada y r/uk en hora local, lo que podría ser útil de cara a futuros análisis.
+
 ![activity](images/three.png)
 
 
+# Futuros pasos
 
+Sería interesante hacer un estudio del contenido de los posts, analizando los títulos y las imágenes de los mismos. Un estudio de este tipo ayudaría a conectar con los usuarios de manera más personalizada. 
 
+Como fun fact, por algún motivo hasta la fecha desconocido, el 90% del contenido del subreddit de r/memes son memes de Shrek...
+
+<p align="center">
+  <img src="images/shrek.jpg">
+</p>
