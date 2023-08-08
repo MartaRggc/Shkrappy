@@ -90,5 +90,5 @@ Sería interesante hacer un estudio del contenido de los posts, analizando los t
 Como fun fact, por algún motivo hasta la fecha desconocido, el 90% del contenido del subreddit de r/memes son memes de Shrek...
 
 <p align="center">
-  <img src="images/shrek.jpg">
+  <img src="images/shrek.jpg" alt="drawing" width="200">
 </p>
